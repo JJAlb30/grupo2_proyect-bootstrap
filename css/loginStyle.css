@@ -1,0 +1,61 @@
+/* ######################## navbar ###################################### */
+
+/* media queries para logos navbar*/
+@media only screen and (min-width: 992px) {
+    #logo-navbar_left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #logo-navbar_center {
+        display: none;
+    }
+}
+
+
+/* para que el navbar no tape el demas contenido */
+main {
+    margin-top: 150px;
+}
+
+/*##################### footer ############################### */
+
+.footer{
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+    #biografia-footer{
+        order: 2;
+        margin-top: 50px;
+    }  
+}
+
+
+
+/*##################### pag. Login ############################### */
+
+/* para la imagen de al lado del form */
+.overlayImg{
+    background-image: url(https://images.pexels.com/photos/5317672/pexels-photo-5317672.jpeg?cs=srgb&dl=pexels-hikari-5317672.jpg&fm=jpg);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlayImg img{
+    max-width: 500px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .overlayImg img {
+        display: none;
+    }
+}

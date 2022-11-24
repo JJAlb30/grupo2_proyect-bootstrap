@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/icono.ico">
+
+    <!-- link de estilos de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link de iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- link de estilos css de nosotros -->
+    <link rel="stylesheet" href="css/blog_entrada1Style.css">
+
+    <title>Entrada3</title>
+</head>
+
+<body>
+
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top shadow-sm">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="index.html" id="logo-navbar_left"><img src="img/logo-black_horizontal.png"
+                    width="150px" alt=""></a>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="acerca_de.html">Acerca de</a>
+                </div>
+
+                <a class="navbar-brand m-auto pe-5" href="index.html" id="logo-navbar_center"><img
+                        src="img/logo-black_horizontal.png" width="180px" alt=""></a>
+
+                <div class="navbar-nav">
+                    <a class="nav-link" href="login.html">Login</a>
+                    <!-- nav-link_modal -->
+                    <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Suscripcion
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- modal nav -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Suscribirse a Newsletter para recibir novedades</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie
+                                más.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <label class="form-check-label" for="exampleCheck1">Verificado</label>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- final modal nav -->
+    <!-- final de nav -->
+
+    <main>
+
+
+
+        <!-- contenido principal -->
+        <section class="container">
+            <div class="row">
+
+                <!-- columna principal-->
+                <div class="col-12 col-md-8" id="entradas-inicio">
+
+                    <!-- entrada de blog1 -->
+                    <div>
+
+                        <!-- imagen de portada -->
+                        <div class="card">
+                            <img src="img/blog-portada_3.jpg" class="card-img-top" alt="...">
+                        </div>
+
+                        <!-- Breadcrumb -->
+                        <div class="my-4"
+                            style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                            aria-label="breadcrumb">
+                            <ol class="breadcrumb h6">
+                                <li class="breadcrumb-item"><a class="text-decoration-none" href="index.html">Inicio</a>
+                                </li>
+                                <li class="breadcrumb-item"><a class="text-decoration-none"
+                                        href="error_404.html">Ciclismo</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Ciclismo y Rendimiento</li>
+                            </ol>
+                        </div>
+
+                        <!-- titulo -->
+                        <div>
+                            <h1 class="fst-italic">Entrenamiento de alta intensidad (HIIT)</h1>
+                        </div>
+
+                        <!-- informacion -->
+                        <div class="my-3">
+                            <span class="text-muted font-monospace"> AITOR MENTA </span>
+                            <span><strong>·</strong></span>
+                            <span class="bg-primary bg-opacity-50">CICLISMO Y RENDIMIENTO</span>
+                            <span><strong>··</strong></span>
+                            <span class="text-muted font-monospace"> 5 COMENTARIOS</span>
+                        </div>
+
+                        <!-- redes sociales -->
+                        <div class="mb-5">
+                            <span> <a class="text-decoration-none text-black"
+                                    href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"><i
+                                        class="bi bi-facebook"></i></a></i>
+                            </span>
+                            <span class="mx-5"> <a class="text-decoration-none text-black"
+                                    href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"><i
+                                        class="bi bi-twitter"></i></a>
+                            </span>
+                            <span> <a class="text-decoration-none text-black"
+                                    href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"><i
+                                        class="bi bi-instagram"></i></a>
+                            </span>
+                        </div>
+
+                        <!-- texto -->
+                        <div>
+                            <p class="fs-6 fw-bold">
+                                HIIT es el acrónimo en inglés de High Intensity Interval Training, que se
+                                traduce como entrenamiento de intervalos de alta intensidad. Mucho se lleva estudiando e
+                                investigando en los últimos años sobre cómo se adapta el cuerpo a este tipo de estímulos
+                                y cómo usarlo de la mejor forma para mejorar el rendimiento.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="fw-normal my-5">¿Qué es el entrenamiento HIIT?s</h3>
+                            <p class="fs-6">
+                                Sería lo que tradicionalmente se ha conocido como entrenamiento por intervalos. La
+                                diferencia radica en que el HIIT abarca solo intervalos medios y cortos, con una
+                                duración máxima de 5’ cada repetición. El concepto fundamental del HIIT es el uso de
+                                estímulos de intensidad mayor al umbral anaeróbico o VT2 (segundo umbral ventilatorio),
+                                para lograr activar las proteínas responsables de la adaptación al ejercicio de
+                                resistencia. Gibala, uno de los principales estudiosos del HIIT, lo define como
+                                “ejercicio físico que se caracteriza por series breves e intermitentes de actividad
+                                vigorosa, intercaladas con periodos de descanso o ejercicios de baja intensidad”.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="fst-normal my-5">¿Qué consigo con el HIIT?</h3>
+
+                            <div class="card mb-5">
+                                <img src="img/blog_3-1.jpg" class="card-img-top" alt="...">
+                            </div>
+
+                            <p class="fs-6">
+                                La respuesta más directa y general sería: mejorar mi rendimiento en la bici. Si vamos a
+                                la raíz de cómo lo logramos debemos hablar de cómo el HIIT es capaz de estimular las
+                                proteínas responsables de la activación de los genes que regulan la producción de
+                                mitocondrias (donde quemamos el oxígeno y producimos energía) y el metabolismo de la
+                                glucosa. Antiguamente se pensaba que solo el entrenamiento de fondo, ya fuera en base a
+                                horas de entrenamiento a intensidades medias y bajas o con intervalos a intensidad de
+                                umbral anaeróbico, podían lograr estas adaptaciones. Sin embargo con el HIT se ha
+                                demostrado que se logran las mismas adaptaciones pero a mucha más velocidad y con menos
+                                volumen total de entrenamiento. No solo se ven mejoras en ritmos máximos, sino que
+                                también mejoramos la eficiencia del pedaleo (gastar menos energía para ir a la misma
+                                velocidad) en ritmos medios y bajos.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="fst-normal my-5">¿A qué intensidad debo hacer las repeticiones de HIIT?</h3>
+
+                            <div class="card mb-5">
+                                <img src="img/blog_3-2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <p class="fs-6">
+                                La clave del entrenamiento HIIT es la intensidad. Ya hemos dicho que debe estar por
+                                encima del Umbral Anaeróbico, pero desde esa intensidad hasta la máxima que podemos
+                                desarrollar aún nos queda margen. En Ciclismo y Rendimiento dividimos el trabajo de HIIT
+                                en dos tipos. Uno sería el conocido como HIIT corto y el otro sería el HIIT largo. En el
+                                HIIT corto buscamos una gran movilización de las fibras rápidas y vaciar sus depósitos
+                                de energía rápida (ATP y Fosfágenos). Para eso las repeticiones son al máximo posible
+                                cada una, y se pueden hacer de 10” a 30”. En el HIIT largo lo que buscamos es que el
+                                ciclista pase la mayor parte posible del tiempo en zona de VO2max. Es decir, buscamos
+                                que use su máxima capacidad de consumir oxígenos durante el mayor tiempo posible. Para
+                                eso programamos series de 1’ a 4’, acumulando un tiempo total de trabajo de alta
+                                intensidad de entre 12’ y 20’. En este caso la recuperación es muy importante ya que si
+                                recuperamos muy poco no podremos hacer el volumen total suficiente, pero si recuperamos
+                                mucho y debido a que el músculo y el sistema cardiovascular tardan en alcanzar su nivel
+                                de VO2max (es lo que se llama la cinética del O2), pasaremos menos tiempo en zona de
+                                VO2max. Por eso se recomienda descansos activos a intensidad de Umbral Aeróbico o que
+                                las pulsaciones no caigan por debajo del 70% de la FCmax. Resumiendo diremos que podemos
+                                hacer el HIIT a dos intensidades, o máxima (darlo todo en cada repetición) o de VO2max
+                                (intensidad que podemos mantener durante 5’-6’).
+                            </p>
+                            <p class="fs-6">
+                                Para ciclistas principiantes o de muy poco nivel se puede suavizar el HIIT largo usando
+                                intensidades justo por encima del Umbral Anaeróbico, sin llegar a VO2max. El HIIT corto
+                                les puede ir muy bien pero en este caso, y si queremos ser conservadores, evitaremos las
+                                repeticiones de más de 20”.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">¿Cómo se organiza una sesión de HIIT?</h3>
+
+                            <p class="fs-6">
+                                El HIIT se puede organizar según diferentes protocolos. Aquí os mostramos algunos
+                                ejemplos pero que obviamente no son los únicos válidos. Se pueden hacer sesiones de
+                                fondo (más de 4h) haciendo el HIIT en las primeras 2h y luego el resto de la sesión a
+                                intensidad ligera, por debajo de umbral aeróbico o Z1-Z2. Como norma general no debemos
+                                mezclar en una misma sesión HIIT con series de Umbral o Inter-Umbrales (entre umbral
+                                aeróbico y anaeróbico o Z3-Z4). Con ciclistas de mucho nivel si podríamos plantear estos
+                                protocolos, pero tampoco como algo habitual.
+                            </p>
+                            <div class="card mb-5">
+                                <img src="img/blog_3-3.jpg" class="card-img-top" alt="...">
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">¿Cuándo debemos o podemos hacer HIIT?</h3>
+
+                            <p class="fs-6">
+                                Cada vez son más los que cuestionan la eficacia de la planificación tradicional (no usar
+                                HIIT hasta la parte final de la preparación) para lograr los mejores resultados. La
+                                tendencia actual es a introducir cada vez antes, dentro de la temporada, este tipo de
+                                entrenamiento. Antes puede ser casi desde el comienzo si usamos una periodización
+                                inversa o justo después de un periodo de base de 2 o 3 meses si usamos una periodización
+                                tradicional. Cuando digo tendencia no me refiero a moda fruto de 4 iluminados que
+                                piensan que como hay un corredor o equipo que entrena así eso sirva para todo el mundo.
+                                No, no nos referimos a eso. Nos referimos a la tendencia que marcan los centros de
+                                investigación de las ciencias del deporte a lo largo del mundo. Estos centros y los
+                                investigadores que trabajan en ellos platean hipótesis y luego las validan, con éxito o
+                                fracaso, en estudios y pruebas que se publican en la prensa especializada. Luego somos
+                                los entrenadores los que vamos cogiendo esas ideas y conceptos y los ponemos en práctica
+                                y a prueba con nuestros deportistas.
+                            </p>
+                            <div class="card mb-5">
+                                <img src="img/blog_3-4.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <p class="fs-6">
+                                Actualmente podemos asegurar (no es una suposición o conjetura, lo hemos probado y
+                                comprobado) que se puede usar HIIT a lo largo de toda la temporada con buenos
+                                resultados. Con la mayoría de ciclistas usamos 1 mes de entrenamiento de adaptación, con
+                                rodajes suaves y algo de trabajo de Z3 y volumen creciente. Si vemos que la evolución es
+                                favorable empezaríamos con el HIIT corto con repeticiones de 10”-20”. En función del
+                                nivel estaremos más o menos tiempo con estas sesiones pero en general con 3-4 semanas
+                                será suficiente. A partir de aquí ya podemos usar el HIIT largo, empezando por
+                                repeticiones de 1’-2’ y evolucionando a las de 3’-4’. Como regla general no hacer más de
+                                2 sesiones a la semana y cada 3-4 semanas descansar una sin hacer HIIT. A lo largo de la
+                                temporada debemos de ir variando el tipo de HIIT y en función de nuestra especialidad lo
+                                alternaremos con otro tipo de entrenamiento más específico a nuestra prueba.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">¿Quién puede o debe hacer HIIT?</h3>
+
+                            <div class="card mb-5">
+                                <img src="img/blog_3-5.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <p class="fs-6">
+                                Parece que este es otro debate de grupeta, más o menos habitual. A veces escuchamos o
+                                leemos opiniones sobre lo agresivo y duro de esta forma de entrenamiento y que solo es
+                                recomendable en ciclistas profesionales o de altísimo nivel. Es interesante contrastar
+                                estas opiniones con la realidad de ver que este método se está usando con pacientes
+                                operados del corazón en su rehabilitación (y no me refiero a Gesink). Vamos, igualitos
+                                que los pros. Obviamente usando protocolos adaptados, por supuesto. Pero usando los
+                                mismos conceptos. Este ejemplo nos sirve para poder responder claramente a la pregunta:
+                                cualquiera puede usarlo. Si además quiere y le interesa mejorar su rendimiento en
+                                bicicleta lo máximo que sus condiciones le permitan, debe usar HIIT. Lo que cada uno
+                                debe de hacer es modificar en función de su nivel y experiencia el tipo y cantidad de
+                                HIIT que hará durante el año. El principio que debemos de seguir es máxima mejora con
+                                mínimo estímulo. Los ciclistas con menos nivel harán menos sesiones de HIIT a lo largo
+                                del año. Estos ciclistas usarán más el HIIT corto, hasta 20” y el HIIT largo pero a
+                                intensidades justo por encima del umbral o alargando los tiempos de recuperación.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">¿Existe un riesgo especial de lesión usando HIIT?</h3>
+
+                            <p class="fs-6">
+                                Siempre que se fuerza el cuerpo existe riesgo de lesión. Ya sea haciendo 6h sin pasar de
+                                140ppm (lesiones por sobreuso) que haciendo series de 2’ a 170ppm (roturas de fibras).
+                                En deportes de más impacto (por ejemplo correr) el riesgo de sufrir roturas musculares
+                                por sesiones de HIIT si es mayor. Pero en ciclismo tenemos la ventaja de no tener
+                                impactos (salvo caída claro) ni trabajo muscular excéntrico. Eso disminuye mucho el
+                                riesgo de rotura y siempre que hagamos un buen calentamiento no habrá riesgos añadidos
+                                de sufrir lesión.
+                            </p>
+                            <p class="fs-6">
+                                No solo en el caso de hacer HIIT, si no para cualquiera que vaya a entrenar en
+                                bicicleta, recomendamos una prueba de esfuerzo anual o bianual para asegurarnos que
+                                nuestro corazón no tiene ninguna patología que le impida trabajar a estas intensidades.
+                                No olvidéis que por mucho que os esforcéis en una sesión de HIIT siempre será menos que
+                                cuando perseguimos al líder de la grupeta en pleno ascenso.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <!-- otras cosas :v -->
+                    <div class="row">
+                        <!-- pagination -->
+                        <div class="col-12 my-5 d-flex justify-content-center">
+
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="_entrada2.html" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="_entrada2.html">2</a></li>
+                                    <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="_entrada4.html">4</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="_entrada4.html" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <!-- final de pagination -->
+
+                        <!-- enviar comentarios -->
+                        <div class="col-12">
+                            <form action="" class="border-top border-bottom py-5">
+                                <div class=" mb-5">
+                                    <h3 class="h2">Deja un comentario</h3>
+                                    <span class="text-muted">Tu dirección de correo electrónico no será publicada. Los
+                                        campos obligatorios
+                                        están marcados con *</span>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a comment here"
+                                                id="floatingTextarea2" style="height: 150px" required></textarea>
+                                            <label for="floatingTextarea2">Comentarios *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="floatingInput"
+                                                placeholder="Leonel Messi" required>
+                                            <label for="floatingInput">Nombre *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="name@example.com" required>
+                                            <label for="floatingInput">Correo electrónico *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span>
+                                                Guarda mi nombre, correo electrónico y web en este navegador para la
+                                                próxima
+                                                vez
+                                                que comente.
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <div class="col-auto">
+                                            <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- final de enviar comentarios -->
+
+                        <!-- comentarios -->
+                        <div class="col-12 my-5">
+                            <div>
+                                <h3 class="h2"> 5 Comentarios</h3>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-12 py-5">
+                                    <div>
+                                        <h4 class=" fw-bold"> Rocky Piedrasanta</h4>
+                                        <span class="text-muted">agos 25, 2022 a las 04:14 pm</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            ¡Felicitaciones por este artículo!
+                                        </p>
+                                        <p>
+                                            He leído mucho sobre el tema pero no entraba nada como esto.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">Silvia Silva</h4>
+                                        <span class="text-muted">agos 24, 2022 a las 11:04 am</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            ¡Buena información!
+                                        </p>
+                                        <p>
+                                            Saludos desde Inglaterra
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">Antonio</h4>
+                                        <span class="text-muted">agos 20, 2022 a las 12:43 pm</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            ¡Este artículo esta increíble!
+                                        </p>
+                                        <p>
+                                            Está lleno de consejos y herramientas que desconocía.
+                                        </p>
+                                        <p>
+                                            ¡Saludos!.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">Alan Brito</h4>
+                                        <span class="text-muted">jul 29, 2022 a las 02:54 pm</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            el post es fantástico! ¡Enhorabuena!
+                                        </p>
+                                        <p>
+                                            Espero que sigan asi, gracias!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">Antonio Banderas</h4>
+                                        <span class="text-muted">jul 28, 2022 a las 03:34 pm</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            Impresionante chicos de grupo2, muy buena aportacion.
+                                        </p>
+                                        <p>
+                                            Saludos!
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- final comentarios -->
+                    </div>
+                </div>
+
+                <!-- aside -->
+                <div class="col-12 col-md-4">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Que desea buscar?"
+                            aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </form>
+                    <!-- barra de busqueda de categorias -->
+                    <div class="btn-group w-100 my-3">
+                        <button type="button"
+                            class="btn border dropdown-toggle d-flex justify-content-between align-items-center"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Categorias</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end w-100">
+                            <li><a href="error_404.html" class="dropdown-item">Rutas</a></li>
+                            <li><a href="error_404.html" class="dropdown-item">Ciclismo</a></li>
+                            <li><a href="error_404.html" class="dropdown-item">Mecanica</a></li>
+                            <li><a href="error_404.html" class="dropdown-item">Bicicletas</a></li>
+                            <li><a href="error_404.html" class="dropdown-item">Equipamientos</a></li>
+                            <li><a href="galeria.html" class="dropdown-item">Imagenes</a></li>
+                        </ul>
+                    </div>
+                    <div class="p-5 sticky-top" id="publicidad-aside">
+                        <a href="https://www.burgerking.com.ar/" target="_blank"><img src="img/publicidad.jpg"
+                                class="img-fluid mt-4" alt=""></a>
+
+                        <a href="https://rollingcodeschool.com/" target="_blank"><img src="img/publicidad2.jpeg"
+                                class="img-fluid mt-4" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- final del contenido principal -->
+
+        <!-- footer de facu -->
+        <section class="container-fluid bg-primary">
+            <div class="container">
+                <footer class="py-5">
+                    <div class="row">
+
+                        <div class="col-12 col-md-5" id="biografia-footer">
+                            <a href="index.html">
+                                <img class="mb-2" src="img/logo-black_horizontal.png" width="230px" alt="">
+                            </a>
+                            <p>En Grupo2 encontrarás un equipo que realmente solucionará tus dudas, amplios
+                                conocimientos, las mejores ofertas y una gama de productos impresionante. Disponemos de
+                                tienda fisica en Grido de la 24, desde ayer y con un servicio
+                                incomparable.</p>
+                            <p> No somos ciclistas, no nos gustan las bicis y no entendemos de bicicletas. Pero siempre
+                                con los mejores
+                                precios y la mejor financiación.</p>
+                            <a href="acerca_de.html" class="text-black text-decoration-none">Más sobre nosotros</a>
+                        </div>
+
+                        <div class="col"></div>
+
+                        <div class="col-12 col-md mb-3">
+                            <h4>Sección</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-black">
+                                        Inicio</a></li>
+                                <li class="nav-item mb-2"><a href="contacto.html" class="nav-link p-0 text-black">
+                                        Contacto</a></li>
+                                <li class="nav-item mb-2"><a href="acerca_de.html" class="nav-link p-0 text-black">
+                                        Acerca de</a>
+                                </li>
+                                <li class="nav-item mb-2"><a href="login.html" class="nav-link p-0 text-black">
+                                        Login</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-md mb-3">
+                            <h4>Seguinos</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2">
+                                    <a href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"
+                                        class="text-black text-decoration-none"><i class="bi bi-facebook fs-4"></i>
+                                        Facebook</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"
+                                        class="text-black text-decoration-none"><i class="bi bi-instagram fs-4"></i>
+                                        Instagram</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"
+                                        class="text-black text-decoration-none"><i class="bi bi-twitter fs-4"></i>
+                                        Twitter</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <!-- final del footer -->
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

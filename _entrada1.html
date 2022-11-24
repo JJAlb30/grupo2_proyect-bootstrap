@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/icono.ico">
+
+    <!-- link de estilos de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link de iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- link de estilos css de nosotros -->
+    <link rel="stylesheet" href="css/blog_entrada1Style.css">
+
+    <title>Entrada1</title>
+</head>
+
+<body>
+
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top shadow-sm">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="index.html" id="logo-navbar_left"><img src="img/logo-black_horizontal.png"
+                    width="150px" alt=""></a>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="acerca_de.html">Acerca de</a>
+                </div>
+
+                <a class="navbar-brand m-auto pe-5" href="index.html" id="logo-navbar_center"><img
+                        src="img/logo-black_horizontal.png" width="180px" alt=""></a>
+
+                <div class="navbar-nav">
+                    <a class="nav-link" href="login.html">Login</a>
+                    <!-- nav-link_modal -->
+                    <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Suscripcion
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- modal nav -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Suscribirse a Newsletter para recibir novedades</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+                            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie
+                                más.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <label class="form-check-label" for="exampleCheck1">Verificado</label>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- final modal nav -->
+    <!-- final de nav -->
+
+    <main>
+
+
+
+        <!-- contenido principal -->
+        <section class="container">
+            <div class="row">
+
+                <!-- columna principal-->
+                <div class="col-12 col-md-8" id="entradas-inicio">
+
+                    <!-- entrada de blog1 -->
+                    <div>
+
+                        <!-- imagen de portada -->
+                        <div class="card">
+                            <img src="img/img-card1.jpg" class="card-img-top" alt="...">
+                        </div>
+
+                        <!-- Breadcrumb -->
+                        <div class="my-4"
+                            style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                            aria-label="breadcrumb">
+                            <ol class="breadcrumb h6">
+                                <li class="breadcrumb-item"><a class="text-decoration-none" href="index.html">Inicio</a>
+                                </li>
+                                <li class="breadcrumb-item"><a class="text-decoration-none" href="error_404.html">Ciclismo</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Consejos de cicloturismo</li>
+                            </ol>
+                        </div>
+
+                        <!-- titulo -->
+                        <div>
+                            <h1 class="fst-italic">Cómo y qué empacar para un viaje en bicicleta</h1>
+                        </div>
+
+                        <!-- informacion -->
+                        <div class="my-3">
+                            <span class="text-muted font-monospace"> JOSÉ MESSI </span>
+                            <span><strong>·</strong></span>
+                            <span class="bg-primary bg-opacity-50">CONSEJOS DE CICLOTURISMO</span>
+                            <span><strong>··</strong></span>
+                            <span class="text-muted font-monospace"> 6 COMENTARIOS</span>
+                        </div>
+
+                        <!-- redes sociales -->
+                        <div class="mb-5">
+                            <span> <a class="text-decoration-none text-black"
+                                    href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"><i
+                                        class="bi bi-facebook"></i></a></i>
+                            </span>
+                            <span class="mx-5"> <a class="text-decoration-none text-black"
+                                    href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"><i
+                                        class="bi bi-twitter"></i></a>
+                            </span>
+                            <span> <a class="text-decoration-none text-black"
+                                    href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"><i
+                                        class="bi bi-instagram"></i></a>
+                            </span>
+                        </div>
+
+                        <!-- texto -->
+                        <div>
+                            <p class="fs-5">Si te estás iniciando en el fascinante mundo del cicloturismo debes saber
+                                que un viaje
+                                bien planeado se disfruta
+                                mucho más. Suponiendo que ya has definido el destino, la ruta y la bicicleta que usaras
+                                para el viaje, lo siguiente
+                                será definir cómo vas a transportar tu equipaje y qué vas a empacar. Para ayudarte con
+                                la planeación, a continuación
+                                te explicamos las opciones para transportar tu carga y los artículos básicos que deberás
+                                empacar.</p>
+                        </div>
+                        <div>
+                            <h3 class="fw-normal my-5">Factores a considerar antes de empacar:</h3>
+                            <ul class="fs-5">
+                                <li>El destino</li>
+                                <li>La duración del viaje</li>
+                                <li>Condiciones climatológicas durante el viaje</li>
+                                <li>Tipo de terreno a recorrer (carretera, brechas, ambos)</li>
+                                <li>Tipo de bicicleta que usaras</li>
+                                <li>Tipo de viaje</li>
+                                <li>Intención del viaje</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="fw-normal my-5">Cómo transportar tu carga</h3>
+                            <p class="fs-5">
+                                En el mundo del cicloturismo existen tres formas principales en las que puedes
+                                transportar tu equipaje. Cada una con
+                                ventajas y desventajas que las hacen más adecuadas para cierto tipo de viajes. El método
+                                más adecuado es aquel que se
+                                ajusta mejor a las características de tu viaje y a tu bicicleta.
+                            </p>
+
+                            <div>
+                                <h3 class="fst-italic my-5">1. Alforjas</h3>
+                                <ul class="fs-5">
+                                    <li>Se sujetan a los racks de la bici</li>
+                                    <li>Gran versatilidad y capacidad de carga</li>
+                                    <li>Fáciles de quitar y poner</li>
+                                    <li>No aumenta el largo de la bicicleta</li>
+                                </ul>
+                                <p class="fs-6">Marcas populares: Ortliban, Vauderno, Arkeelfue, Detonor</p>
+                            </div>
+
+                            <div>
+                                <h3 class="fst-italic my-5">2. Bolsas para bikepacking</h3>
+
+                                <div class="card mb-5">
+                                    <img src="img/blog_1-1.jpg" class="card-img-top" alt="...">
+                                </div>
+
+                                <ul class="fs-5">
+                                    <li>Se sujetan al cuadro, manubrio y poste del asiento de la bici</li>
+                                    <li>Son excelentes para viajar ligero</li>
+                                    <li>Se pueden sujetar a casi cualquier bicicleta</li>
+                                    <li>Ideales para viajes por la montaña y caminos abruptos</li>
+                                </ul>
+                                <p class="fs-6">Marcas populares: Revelado, AlpiniKit, Bike Mtb, Oveja Villera</p>
+                            </div>
+
+
+                            <div>
+                                <h3 class="fst-italic my-5">3. Remolque</h3>
+
+                                <div class="card mb-5">
+                                    <img src="img/blog_1-2.jpg" class="card-img-top" alt="...">
+                                </div>
+
+                                <ul class="fs-5">
+                                    <li>Ideales para cargas demasiado pesadas o de dimensiones poco convenientes para
+                                        llevar en la bici</li>
+                                    <li>No requiere que la bicicleta tenga montajes especiales</li>
+                                    <li>Se pueden sujetar a casi cualquier bicicleta</li>
+                                    <li>Puedes dejar todo tu equipaje en un lugar para explorar sin todo el equipo</li>
+                                </ul>
+                                <p class="fs-6">Marcas populares: Burley, Radical Design, Extrawheel, M-Wave</p>
+                                <p class="fs-6">Algunos de estos métodos se pueden combinar y existen alternativas de
+                                    racks que se pueden instalar en
+                                    bicicletas que no tienen los montajes en el cuadro, como el Thule Pack’n pedlal.
+                                    Todo es cuestión de seleccionar lo
+                                    que sea más conveniente y cómodo para ti.</p>
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Qué empacar para cualquier viaje en bici</h3>
+
+                            <div class="card mb-5">
+                                <img src="img/blog_1-3.jpg" class="card-img-top" alt="...">
+                            </div>
+
+                            <p class="fs-6"> Un viaje en bici se puede realizar en tres modalidades o cualquier
+                                combinación de ellas:</p>
+
+                            <ul class="fs-5">
+                                <li><span class="fw-bold">Viaje organizado (guiado o no guiado):</span> el organizador
+                                    (normalmente alguna empresa) se encarga de alimento, hospedaje, reparaciones, etc.
+                                </li>
+                                <li><span class="fw-bold">Viaje de tarjeta de credito:</span> El o la viajera se
+                                    hospedan en hoteles, hostales, etc y comen en restaurantes que encuentran en el
+                                    camino.</li>
+                                <li><span class="fw-bold">Viaje autosuficiente:</span> El o la viajera lleva todo lo
+                                    necesario para sobrevivir por unos días en su bicicleta, incluyendo equipo de
+                                    camping, de cocina y víveres.</li>
+                            </ul>
+                            <p class="fs-6">Marcas populares: Revelado, AlpiniKit, Bike Mtb, Oveja Villera</p>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Ropa</h3>
+
+                            <p class="fs-6"> Al tener capacidad limitada es recomendable seleccionar ropa ligera, fácil
+                                de empacar (compacta), que
+                                te funcione en diferentes ocasiones y apropiada para las condiciones que enfrentaras en
+                                el camino. Muchos viajeros
+                                gustan dividir sus prendas en dos categorías, ropa casual y ropa de ciclismo, utilizando
+                                algunas prendas para ambos
+                                propósitos.</p>
+                            <p class="fs-6">No es necesario llevar muchos cambios. Para ciertas prendas con uno es más
+                                que suficiente, para otras como calcetines, ropa interior y playeras con tres cambios
+                                bastará; el que llevas puesto, el sucio y el que se está secando.</p>
+
+                            <ul class="fs-6">
+                                <li>Playera manga larga y manga corta (los expertos sugieren de lana merino)</li>
+                                <li>Camisa</li>
+                                <li>Pantalon</li>
+                                <li>Short casual</li>
+                                <li>Ropa interior</li>
+                                <li>Zapatos deportivos</li>
+                                <li>Chanclas/sandalias</li>
+                                <li>Falda</li>
+                                <li>Leggings</li>
+                                <li>Chamarra o chaleco de plumón o Primaloft (sintetico)</li>
+                                <li>Chamarra impermeable</li>
+                                <li>Shorts de ciclismo</li>
+                                <li>Casco</li>
+                                <li>Lentes</li>
+                                <li>Guantes</li>
+                                <li>Buff</li>
+                                <li>Calcetines impermeables</li>
+                                <li>Zapatos de ciclismo</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Aseo y cuidado personal</h3>
+
+                            <p class="fs-6"> Nada como un buen baño después de 5 horas de camino. Aunque no siempre se
+                                tiene la oportunidad de darse un buen baño, el poder asearse un poco después de la
+                                pedaleada es siempre bastante refrescante.</p>
+
+                            <ul class="fs-6">
+                                <li>Champú</li>
+                                <li>Jabón</li>
+                                <li>Cepillo de dientes</li>
+                                <li>Pasta de dientes</li>
+                                <li>Desodorante</li>
+                                <li>Toalla</li>
+                                <li>Bloqueador solar</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Herramientas y refacciones</h3>
+
+                            <div class="card mb-5">
+                                <img src="img/blog_1-4.jpg" class="card-img-top" alt="...">
+                            </div>
+
+                            <p class="fs-6">Siempre es una buena práctica cargar tu kit de herramientas básico aunque
+                                salgas a dar un paseo por tu colonia, en un viaje es indispensable. No necesitas ser
+                                experta o experto, pero si por lo menos saber de mecánica básica. Saber parchar una
+                                cámara, ajustar frenos y cambios, además de darle mantenimiento general a tu bicicleta
+                                es vital para el cicloturista. En viajes largos también es recomendable llevar algunas
+                                refacciones, especialmente si tu ruta incluye lugares remotos en los que será difícil
+                                tener acceso a un taller o tienda de bicicletas.</p>
+
+                            <ul class="fs-6">
+                                <li>Multi herramienta o juego de llaves allen y desarmadores</li>
+                                <li>Cámara de repuesto y kit de parchado</li>
+                                <li>Bomba de aire</li>
+                                <li>Herramienta corta cadena (si tu multi herramienta no incluye)</li>
+                                <li>Tornillos y tuercas de repuesto (especialmente para los racks)</li>
+                                <li>Cinta aislante</li>
+                                <li>Cinchos</li>
+                                <li>Navaja</li>
+                                <li>Pinzas</li>
+                            </ul>
+
+                            <p class="fs-6">Para viajes largos:</p>
+
+                            <ul class="fs-6">
+                                <li>Llanta/cubierta de refacción</li>
+                                <li>Extractor y llave de cadena (para extraer rueda libre o cassette según sea el caso)
+                                </li>
+                                <li>Repuestos de chicotes y forros (frenos y cambios)</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Botiquín médico</h3>
+
+                            <div class="card mb-5">
+                                <img src="img/blog_1-5.jpg" class="card-img-top" alt="...">
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Electrónicos</h3>
+
+                            <ul class="fs-6 mb-5">
+                                <li>Cámaras</li>
+                                <li>GPS</li>
+                                <li>Teléfono</li>
+                                <li>Tableta</li>
+                                <li>Cargadores</li>
+                            </ul>
+                        </div>
+
+
+                        <div>
+                            <h3 class="fw-normal my-5">Documentos personales</h3>
+
+                            <p class="fs-6">No olvides salir de casa con una identificación, algo de dinero y tarjetas
+                                bancarias. En caso de que pienses viajar al extranjero no olvides tu pasaporte, boletos,
+                                investigar y tramitar la o las visas con anticipación y traer en la cartera los datos de
+                                contacto en caso de emergencia. No esta demás traer un mapa.</p>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Equipo para un viaje autosuficiente</h3>
+
+                            <p class="fs-6">Para un viaje autosuficiente además de tu ropa, botiquín y herramientas
+                                deberás llevar equipo para acampar, cocinar así como los alimentos para cierto número de
+                                días. En cuanto a equipamiento no necesitas tener lo más caro ni lo más sofisticado.
+                                Ciertamente los equipos más sofisticados te pueden hacer la vida un poco más fácil y
+                                sobre todo ahorrarte un poco de peso, pero lo ideal es irse haciendo de equipo poco a
+                                poco y con el tiempo ir identificando aquellos artículos en los que vale la pena
+                                invertir un poco más.</p>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Equipo de camping (aplica para viaje autosuficiente)</h3>
+
+                            <div class="card mb-5">
+                                <img src="img/blog_1-6.jpg" class="card-img-top" alt="...">
+                            </div>
+
+                            <ul class="fs-6 mb-5">
+                                <li>Casa/tienda de campaña</li>
+                                <li>Saco de dormir</li>
+                                <li>Colchón bajo sleeping</li>
+                                <li>Almohada</li>
+                                <li>Linterna de frente</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="fw-normal my-5">Equipo para cocinar (aplica para viaje autosuficiente)</h3>
+
+                            <div class="card mb-5">
+                                <img src="img/blog_1-7.jpg" class="card-img-top" alt="...">
+                            </div>
+
+                            <ul class="fs-6 mb-5">
+                                <li>Juego de cubiertos</li>
+                                <li>Juego de platos</li>
+                                <li>Hoya</li>
+                                <li>Vaso</li>
+                                <li>Estufa</li>
+                                <li>Tanque de gas(para la estufa)</li>
+                                <li>Tabla para picar</li>
+                                <li>Filtro de agua</li>
+                                <li>Bote para agua</li>
+                                <li>Cuchillo/navaja</li>
+                                <li>Encendedor</li>
+                                <li>Sal y especies</li>
+                                <li>Detergente para trastes</li>
+                                <li>Recipientes/bolsas para almacenar los alimentos</li>
+                            </ul>
+
+                            <p class="fs-6">Esta lista de básicos debe ser considerada únicamente como una guía. Cómo lo
+                                mencionamos en un principio todo depende de las características particulares de tu viaje
+                                y necesidades y, por qué no gustos propios. Durante y después de tu primer viaje te
+                                darás cuenta de muchas cosas que llevaste no son realmente necesarias. Conforme vayas
+                                tomando experiencia iras determinando que es lo que realmente es indispensable para ti y
+                                cada vez empacarás de manera más eficiente.</p>
+
+                            <p class="fs-6">Espero que esta información te sea de utilidad y no olvides dejar tus
+                                preguntas y consejos en la sección de comentarios.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- otras cosas :v -->
+                    <div class="row">
+                        <!-- pagination -->
+                        <div class="col-12 my-5 d-flex justify-content-center">
+
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+                                    </li>
+                                    <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="_entrada2.html">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="_entrada3.html">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="_entrada2.html" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <!-- final de pagination -->
+
+                        <!-- enviar comentarios -->
+                        <div class="col-12">
+                            <form action="" class="border-top border-bottom py-5">
+                                <div class=" mb-5">
+                                    <h3 class="h2">Deja un comentario</h3>
+                                    <span class="text-muted">Tu dirección de correo electrónico no será publicada. Los
+                                        campos obligatorios
+                                        están marcados con *</span>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a comment here"
+                                                id="floatingTextarea2" style="height: 150px" required></textarea>
+                                            <label for="floatingTextarea2">Comentarios *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="floatingInput"
+                                                placeholder="Leonel Messi" required>
+                                            <label for="floatingInput">Nombre *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInput"
+                                                placeholder="name@example.com" required>
+                                            <label for="floatingInput">Correo electrónico *</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="">
+                                            <span>
+                                                Guarda mi nombre, correo electrónico y web en este navegador para la
+                                                próxima
+                                                vez
+                                                que comente.
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-3">
+                                        <div class="col-auto">
+                                            <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- final de enviar comentarios -->
+
+                        <!-- comentarios -->
+                        <div class="col-12 my-5">
+                            <div>
+                                <h3 class="h2"> 6 Comentarios</h3>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-12 py-5">
+                                    <div>
+                                        <h4 class=" fw-bold">Julian Alparez</h4>
+                                        <span class="text-muted">agos 20, 2022 a las 01:12 am</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            Hola equipo de grupo2,
+                                        </p>
+                                        <p>
+                                            saludos desde el city.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">Lautaro Martilles</h4>
+                                        <span class="text-muted">agos 19, 2022 a las 11:22 pm</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            Hola gente,
+                                        </p>
+                                        <p>
+                                            como estan? Cansados supongo, de armar semejante blog !!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">Silvia</h4>
+                                        <span class="text-muted">agos 15, 2022 a las 5:01 am</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            Buenas,muchas gracias por la gran aportación que hacéis.
+                                            Quiero ir en mi primer viaje de Oporto a Santiago.
+                                        </p>
+                                        <p>
+                                            Soy totalmente neofita en viajes en bici. Elegí este porque dicen que es el
+                                            más
+                                            fácil, y para empezar con 61 años me pareció bien.
+                                            Tengo un problema que las alforjas que hace tiempo me regalarón,se meten en
+                                            los
+                                            radios.
+                                        </p>
+                                        <p>
+                                            Mi bici es una BH de 20 años. Que portabultos me iria bien. El que lleva la
+                                            bici no vale es muy simple. Y solo tiene en la tija un punto de anclaje.
+                                            Son tantasss cosas que no sé, y quiero aprender
+                                        </p>
+                                        <p>
+                                            Muchas gracias y Un saludo.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">José Luis Ramírez</h4>
+                                        <span class="text-muted">agos 2, 2022 a las 8:43 pm</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            Hola grupo2,
+                                        </p>
+                                        <p> No hay viaje demasiado corto. Aunque sean 200km te servirá para ir agarrando
+                                            experiencia. Es una buena oportunidad
+                                            para analizar cuestiones de la empacada y sentir como se comporta la bici.
+                                            Con el tiempo te iras dando cuenta del
+                                            equipo en el que quizás quieras invertir un poco más y en el que no hace
+                                            falta gastar.
+                                        </p>
+                                        <p>
+                                            Si tienes alguna duda en concreto puedes ponerte en contacto con nosotros y
+                                            con mucho gusto aremos nuestro mejor
+                                            esfuerzo para responderte.
+                                        </p>
+                                        <p>
+                                            ¡Saludos!.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">Gabo A.</h4>
+                                        <span class="text-muted">jul 29, 2022 a las 10:54 pm</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            Alguien aquí ya se lanzó a una aventura así? es que quiero conocer gente y
+                                            su experiencia haciendo esto, así como
+                                            también poder recibir mas consejos. Estoy planeando un viaje de 200 km en
+                                            bicicleta (quizás es corto, pero será el
+                                            primero y segun leí aquí, lo clasifico como viaje autosuficiente).
+                                        </p>
+                                        <p>
+                                            Espero pueda obtener ayuda, gracias!
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 py-5 border-top">
+                                    <div>
+                                        <h4 class=" fw-bold">Manuelito Perez</h4>
+                                        <span class="text-muted">jul 28, 2022 a las 09:34 pm</span>
+                                    </div>
+                                    <div class="fst-italic mt-4 ms-5">
+                                        <p>
+                                            Impresionante chicos de grupo2, muy buena aportacion.
+                                        </p>
+                                        <p>
+                                            wikipedia un poroto al lado de este blog...
+                                        </p>
+                                        <p>
+                                            Saludos, y gracias!
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- final comentarios -->
+                    </div>
+                </div>
+
+                <!-- aside -->
+                <div class="col-12 col-md-4">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Que desea buscar?"
+                            aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </form>
+                    <!-- barra de busqueda de categorias -->
+                    <div class="btn-group w-100 my-3">
+                        <button type="button"
+                            class="btn border dropdown-toggle d-flex justify-content-between align-items-center"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>Categorias</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end w-100">
+                            <li><a href="error_404.html" class="dropdown-item">Rutas</a></li>
+                            <li><a href="error_404.html" class="dropdown-item">Ciclismo</a></li>
+                            <li><a href="error_404.html" class="dropdown-item">Mecanica</a></li>
+                            <li><a href="error_404.html" class="dropdown-item">Bicicletas</a></li>
+                            <li><a href="error_404.html" class="dropdown-item">Equipamientos</a></li>
+                            <li><a href="galeria.html" class="dropdown-item">Imagenes</a></li>
+                        </ul>
+                    </div>
+                    <div class="p-5 sticky-top" id="publicidad-aside">
+                        <a href="https://www.burgerking.com.ar/" target="_blank"><img src="img/publicidad.jpg"
+                                class="img-fluid mt-4" alt=""></a>
+
+                        <a href="https://rollingcodeschool.com/" target="_blank"><img src="img/publicidad2.jpeg"
+                                class="img-fluid mt-4" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- final del contenido principal -->
+
+        <!-- footer de facu -->
+        <section class="container-fluid bg-primary">
+            <div class="container">
+                <footer class="py-5">
+                    <div class="row">
+
+                        <div class="col-12 col-md-5" id="biografia-footer">
+                            <a href="index.html">
+                                <img class="mb-2" src="img/logo-black_horizontal.png" width="230px" alt="">
+                            </a>
+                            <p>En Grupo2 encontrarás un equipo que realmente solucionará tus dudas, amplios
+                                conocimientos, las mejores ofertas y una gama de productos impresionante. Disponemos de
+                                tienda fisica en Grido de la 24, desde ayer y con un servicio
+                                incomparable.</p>
+                            <p> No somos ciclistas, no nos gustan las bicis y no entendemos de bicicletas. Pero siempre
+                                con los mejores
+                                precios y la mejor financiación.</p>
+                            <a href="acerca_de.html" class="text-black text-decoration-none">Más sobre nosotros</a>
+                        </div>
+
+                        <div class="col"></div>
+
+                        <div class="col-12 col-md mb-3">
+                            <h4>Sección</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-black">
+                                        Inicio</a></li>
+                                <li class="nav-item mb-2"><a href="contacto.html" class="nav-link p-0 text-black">
+                                        Contacto</a></li>
+                                <li class="nav-item mb-2"><a href="acerca_de.html" class="nav-link p-0 text-black">
+                                        Acerca de</a>
+                                </li>
+                                <li class="nav-item mb-2"><a href="login.html" class="nav-link p-0 text-black">
+                                        Login</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-md mb-3">
+                            <h4>Seguinos</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2">
+                                    <a href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"
+                                        class="text-black text-decoration-none"><i class="bi bi-facebook fs-4"></i>
+                                        Facebook</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"
+                                        class="text-black text-decoration-none"><i class="bi bi-instagram fs-4"></i>
+                                        Instagram</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="https://www.facebook.com/Grupo2-com14i-Project-Bootstrap-100243669478712"
+                                        class="text-black text-decoration-none"><i class="bi bi-twitter fs-4"></i>
+                                        Twitter</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <!-- final del footer -->
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

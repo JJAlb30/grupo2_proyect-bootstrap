@@ -1,0 +1,56 @@
+/* ######################## navbar ###################################### */
+
+/* media queries para logos navbar*/
+@media only screen and (min-width: 992px) {
+    #logo-navbar_left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #logo-navbar_center {
+        display: none;
+    }
+}
+
+
+/* para que el navbar no tape el demas contenido */
+main {
+    margin-top: 80px;
+}
+
+/*##################### footer ############################### */
+
+@media only screen and (max-width: 768px) {
+    #biografia-footer{
+        order: 2;
+        margin-top: 50px;
+    }  
+}
+
+/*##################### pag. Inicio ############################### */
+
+/* para pasar el aside hacia arriba en mobile */
+@media only screen and (max-width: 768px) {
+    #entradas-inicio{
+        order: 6;
+    }  
+}
+
+/* para ocultar publicidad en mobile */
+@media only screen and (max-width: 768px) {
+    #publicidad-aside {
+        display: none;
+    }
+}
+
+/* para las imagenes no queden sobre la barra de categorias */
+#publicidad-aside{
+    z-index: 1;
+}
+
+
+/* para que el tamaño del textarea no se modifique */
+/* textarea{
+    resize: none;
+} */

@@ -1,0 +1,97 @@
+#galeria figure{
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    cursor: default;
+}
+#galeria figure img{
+    width: 100%;
+    height: 250px;
+    transition: all 500ms ease-out;
+}
+#galeria .bicicletas figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;  
+    visibility: hidden;  
+    text-align: center;
+}
+#galeria .campeones figure .capa{
+    position: absolute;
+    top: 0;
+    width: 92%;
+    height: 100%;
+    background: rgba(11,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;  
+    visibility: hidden;  
+    text-align: center;
+}
+#galeria figure:hover > .capa{
+    visibility: visible;
+    opacity: 1;
+}
+#galeria figure:hover > .capa h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+#galeria .bicicletas figure:hover > img{
+    transform: scale(1.07);
+}
+#galeria figure .capa h5{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+#galeria figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+#galeria .fotos img:hover{
+    border: 5px solid #f7f7f7;
+}
+#galeria .fotos img{
+    width: 300px;
+    height: 200px;
+}
+
+
+/* ######################## navbar ###################################### */
+
+/* media queries para logos navbar*/
+@media only screen and (min-width: 992px) {
+    #logo-navbar_left {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #logo-navbar_center {
+        display: none;
+    }
+}
+
+
+/* para que el navbar no tape el demas contenido */
+main {
+    margin-top: 61.5px;
+}
+
+/*##################### footer ############################### */
+
+@media only screen and (max-width: 768px) {
+    #biografia-footer{
+        order: 2;
+        margin-top: 50px;
+    }  
+}
